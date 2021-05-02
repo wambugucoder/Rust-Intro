@@ -1,4 +1,6 @@
 // src/Employees/users.r
+use serde::{Deserialize,Serialize};
+
 #[derive(Deserialize,Serialize)]
 pub struct Users{
     pub id:i32,
